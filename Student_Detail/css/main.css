@@ -1,6 +1,7 @@
 body {
-    background: url('https://github.com/kicheungwauongy/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background: url('https://github.com/kicheungwauongy/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
 }
+
 
 #mainav {
     background-blend-mode: multiply;
@@ -23,17 +24,12 @@ div#mainleft a {
   }
 
 .about, .gallery, .documents {
-    color: black;
+    color: #686868;
     font-size: .80rem;
     padding: 10px;
     margin: 10px;
     text-decoration: none;
     text-transform: uppercase;
-}
-
-a:hover {
-    background-color: #686868;
-    color: white;
 }
 
 #mainright {
@@ -47,6 +43,17 @@ a:hover {
     height: 20px;
     width: 20px;
 }
+
+a:hover {
+  background-color: #686868;
+  color: white;
+  padding: 10px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+
   
 .login, .register {
     color: #a6a69d;
@@ -54,4 +61,441 @@ a:hover {
     margin: 2px;
     text-decoration: none;
     text-transform: uppercase;   
+}
+
+#slider {
+    background-color: #a6a69d;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 500px;
+    width: 70.5%;
+    margin: 10px 30px;
+    position: relative;
+    left: 10px;
+
+}
+
+.handshakes {
+   height: 500px;
+   width: 90%;
+   margin:0 45px;
+
+ 
+}
+
+img {
+  max-width: 100%;
+}
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 180px;
+}
+
+#rightarrow {
+  right: -18px;
+}
+
+#leftarrow {
+  left: -18px;
+}
+
+#designer {
+    background: #202020;
+    height: 40px;
+    width: 70.5%;
+    position: relative;
+    left: 43px;
+    bottom: 57px;
+}
+
+#name {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    padding-top: 1px;
+    padding-right: 1px;
+    position: relative;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+    position: relative;
+    left: 40px;
+    bottom: -15px;
+}
+
+.images {
+  display: flex;
+  margin: 20px;
+	flex-flow: wrap;
+	justify-content: space-around;
+  position: relative;
+  left: -10px;
+}
+.alt-view {
+  display: flex;
+  margin: 20px;
+}
+.altview {
+  width: 296px;
+	height: 200px;
+  margin: 10px;
+  border: 3px solid white;
+    border-radius: 5px;
+}
+
+.upper-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1000px;
+  padding: 50px;
+  padding-top: -60px;
+  padding-left: 5px;
+  position: relative;
+  bottom: 900px;
+  
+}
+
+.myinfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  position: relative;
+  left: -29px;
+   bottom: -10px;  
+  
+}
+
+.myinfo h6 {
+  display: flex;
+  font-size: 10px;
+  justify-content: flex-end;
+  margin: 1px;  
+}
+
+.myprofile {
+  display: flex;
+  justify-content: flex-end;
+  background: white;
+  width: 250px;
+  height: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.mysocial {
+  display: flex;
+  justify-content: flex-end;
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  position: relative;
+  left: -60px;
+  bottom: -60px;
+}
+
+#profilepic {
+  width: 60px;
+  margin-top: 7px;
+  margin-left: 10px;
+  position: relative;
+  left: 179px;
+  bottom: 110px;
+  
+}
+
+
+.project-title { 
+  background: white;
+  width: 250px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+#nessst {
+  text-transform: uppercase;
+   display: flex;
+  justify-content: center;
+  
+}
+
+p {
+  padding-right: 5px;
+  padding-left: 5px;
+  
+}
+
+.legends { 
+	width: 15%;
+	height: 15vh;
+	margin: 20px;
+  padding: 30px;
+}
+
+.legends:hover {
+  width: 18%;
+}
+
+
+#block_one {
+    background: url('https://images.performgroup.com/di/library/goal_uk/a5/a4/george-best-man-utds-20-greatest_1aegqiy68hwvl1vox4pzn9oenp.jpg?t=-1054170550&w=940');
+    background-size: cover;
+}
+#block_two {
+    background: url('https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article4874570.ece/ALTERNATES/s1227b/Foulkes.jpg');
+    background-size: cover;
+}      
+
+#block_three {  
+    background: url('https://www.manutd.com/AssetPicker/images/0/0/6/24/399500/Eric_Cantona_player_portrait51512572642042_large.jpg');
+    background-size: cover;
+}
+
+#block_four {   
+    background: url('https://1.bp.blogspot.com/-W40qb26v8gk/U6508zvu17I/AAAAAAAAKLs/b6kS-Ec5YuU/s1600/BdZ1N3MIAAAiFQA.jpg');
+    background-size: cover;
+}
+#block_five {   
+    background: url('https://images.performgroup.com/di/library/goal_uk/bd/b4/ryan-giggs-manchester-united-champions-league_t5ss7d1s92dg1hmyrqs7eehsa.jpg?t=-710623633');
+    background-size: cover;
+}
+#block_six {  
+    background: url('https://sport360.com/wp-content/uploads/2019/01/Paul-Scholes.jpg');
+    background-size: cover;
+}
+#block_seven {  
+    background: url('https://images.performgroup.com/di/library/goal_uk/56/22/peter-schmeichel-man-utd_tk7xht4edufz1vrc2x2dg3gkp.jpg?t=1036943041');
+    background-size: cover;
+}
+#block_eight { 
+    background: url('https://images.performgroup.com/di/library/goal_uk/de/ce/david-beckham-manchester-united_mn16rsy0b98w1cb6mdeb135ts.jpg?t=266890637');
+    background-size: cover;
+}
+
+#comments {
+  background: #404040;
+  height: 50px;
+  width: 91%;
+  margin-top: 50px;
+  position: relative;
+  left: 50px;
+   bottom: -10px;
+}
+
+.twitter_logo {
+  height: 28px;
+  display: flex;
+  padding: 20px;
+}
+
+#ready {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 47px;
+  margin: 5px;
+  padding-right: 30px;
+}
+  
+span {
+  font-size: 11px;
+  margin: 9px;
+}
+
+footer {
+  background: url('https://github.com/kicheungwauongy/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  background-color: #a6a69d;
+  background-blend-mode: multiply;
+  height: 250px;
+  width: 91%;
+  padding: 10px 0px;
+  position: relative;
+  left: 50px;
+  bottom: -10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#footlogo {
+    position: relative;
+    left: -90px;
+    bottom: -10px;
+}
+
+#footabout, #footgallery, #footdocuments {
+     color: #404040;
+    font-size: .80rem;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    left: -90px;
+    bottom: 20px;
+}
+
+#question {
+  font-size: 1rem;
+  color: #404040;
+  position: relative;
+  left: -90px;
+   bottom: -10px;
+}
+
+#find {
+  color: white;
+  font-size: .7rem;
+  position: relative;
+  left: -90px;
+  bottom: -5px;
+}
+
+#search {
+  margin: -90px;
+  width: 90%;
+  height: 20px;
+}
+
+#footcenter {
+  width: 30%;
+}
+
+
+h3 {
+  font-size: .9rem;
+  color: #404040;
+  text-transform: uppercase;
+  position: relative;
+  left: -70px;
+  bottom: -11px;
+}
+
+#details {
+  font-size: 16px;
+  color: white;
+  position: relative;
+  left: -70px;
+  bottom: -15px;
+}
+
+#read{
+  color: #404040;
+  position: relative;
+  left: -70px;
+  bottom: -15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#view {
+  font-size: .9rem;
+  color: #444645;
+  position: relative;
+  left: -70px;
+  bottom: -13px;
+  text-transform: uppercase;
+}
+
+#box_one {
+  height: 30px;
+  width: 55px;
+  Background: url('https://images.performgroup.com/di/library/goal_uk/a5/a4/george-best-man-utds-20-greatest_1aegqiy68hwvl1vox4pzn9oenp.jpg?t=-1054170550&w=940');
+  background-size: cover;
+  margin: 1px;
+  position: relative;
+  left: -70px;
+  bottom: -5px;
+}
+
+#box_two {
+  height: 30px;
+  width: 55px;
+  Background: url('https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article4874570.ece/ALTERNATES/s1227b/Foulkes.jpg');
+  background-size: cover;
+  margin: 1px;
+  position: relative;
+  left: -10px;
+  bottom: 26px;
+}
+
+#box_three {
+  height: 30px;
+    width: 55px;
+    Background: url('https://www.manutd.com/AssetPicker/images/0/0/6/24/399500/Eric_Cantona_player_portrait51512572642042_large.jpg');
+    background-size: cover;
+    margin: 7px;
+    position: relative;
+    left: 45px;
+    bottom: 62px;
+}
+
+#box_four {
+  height: 30px;
+    width: 55px;
+    Background: url('https://1.bp.blogspot.com/-W40qb26v8gk/U6508zvu17I/AAAAAAAAKLs/b6kS-Ec5YuU/s1600/BdZ1N3MIAAAiFQA.jpg');
+    background-size: cover;
+    margin: 5px;
+    position: relative;
+    left: 108px;
+    bottom: 99.5px;
+}
+
+#box_five {
+  height: 30px;
+    width: 55px;
+    Background: url('https://images.performgroup.com/di/library/goal_uk/bd/b4/ryan-giggs-manchester-united-champions-league_t5ss7d1s92dg1hmyrqs7eehsa.jpg?t=-710623633');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: -70px;
+    bottom: 90px;
+}
+
+#box_six {
+  height: 30px;
+    width: 55px;
+    Background: url('https://sport360.com/wp-content/uploads/2019/01/Paul-Scholes.jpg');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: -10px;
+    bottom: 121px;
+}
+
+#box_seven {
+  height: 30px;
+    width: 55px;
+    Background: url('https://images.performgroup.com/di/library/goal_uk/56/22/peter-schmeichel-man-utd_tk7xht4edufz1vrc2x2dg3gkp.jpg?t=1036943041');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: 50px;
+    bottom: 152px;
+}
+
+#box_eight {
+  height: 30px;
+    width: 55px;
+    Background: url('https://images.performgroup.com/di/library/goal_uk/de/ce/david-beckham-manchester-united_mn16rsy0b98w1cb6mdeb135ts.jpg?t=266890637');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: 111px;
+    bottom: 183px;
 }
