@@ -1,0 +1,275 @@
+body {
+    background: url('https://github.com/kicheungwauongy/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+}
+
+#mainav {
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a6a69d;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+#mainleft {
+    display: flex;
+    align-items: center;
+}
+
+div#mainleft a {
+    margin: 0 20px;
+  }
+
+.about, .gallery, .documents {
+    color: black;
+    font-size: .80rem;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#mainright {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 50px;
+}
+  
+.socialmedia {
+    height: 20px;
+    width: 20px;
+}
+  
+.login, .register {
+    color: #a6a69d;
+    font-size: 10px;
+    margin: 2px;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+a:hover {
+    background-color: #686868;
+    color: white;
+    padding: 10px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#slider {
+    background-color: #a6a69d;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 600px;
+    width: 91.5%;
+    margin: 10px 30px;
+    position: relative;
+    left: 10px;
+}
+
+.handshakes {
+   height: 560px;
+   width: 90%;
+   margin: 0 60px;
+  }
+
+img {
+    max-width: 100%;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 250px;
+}
+
+#rightarrow {
+  right: -18px;
+}
+
+#leftarrow {
+  left: -18px;
+}
+
+#designer {
+    background: #404040;
+    height: 40px;
+    width: 91.5%;
+    position: relative;
+    left: 43px;
+    bottom: 62px;
+}
+
+#name {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    padding-top: 8px;
+    padding-right: 13px;
+}
+
+h1 {
+    color: #404040;
+    font-size: 2rem;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.images {
+    display: flex;
+    margin: 30px;
+	flex-flow: wrap;
+	justify-content: space-around;
+    position: relative;
+    left: -10px;
+}
+  
+.legends {
+    width: 15%;
+    height: 20vh;
+    margin: 20px;
+    padding: 20px;
+}
+  
+.legends:hover {
+    width: 24%;
+}
+
+#block_one {
+    background: url('https://images.performgroup.com/di/library/goal_uk/a5/a4/george-best-man-utds-20-greatest_1aegqiy68hwvl1vox4pzn9oenp.jpg?t=-1054170550&w=940');
+    background-size: cover;
+}
+#block_two {
+    background: url('https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article4874570.ece/ALTERNATES/s1227b/Foulkes.jpg');
+    background-size: cover;
+}      
+
+#block_three {  
+    background: url('https://www.manutd.com/AssetPicker/images/0/0/6/24/399500/Eric_Cantona_player_portrait51512572642042_large.jpg');
+    background-size: cover;
+}
+
+#block_four {
+    background: url('https://1.bp.blogspot.com/-W40qb26v8gk/U6508zvu17I/AAAAAAAAKLs/b6kS-Ec5YuU/s1600/BdZ1N3MIAAAiFQA.jpg');
+    background-size: cover;
+}
+
+#block_five {   
+    background: url('https://images.performgroup.com/di/library/goal_uk/bd/b4/ryan-giggs-manchester-united-champions-league_t5ss7d1s92dg1hmyrqs7eehsa.jpg?t=-710623633');
+    background-size: cover;
+}
+
+#block_six {  
+    background: url('https://sport360.com/wp-content/uploads/2019/01/Paul-Scholes.jpg');
+    background-size: cover;
+}
+
+#block_seven {  
+    background: url('https://images.performgroup.com/di/library/goal_uk/56/22/peter-schmeichel-man-utd_tk7xht4edufz1vrc2x2dg3gkp.jpg?t=1036943041');
+    background-size: cover;
+}
+#block_eight { 
+    background: url('https://images.performgroup.com/di/library/goal_uk/de/ce/david-beckham-manchester-united_mn16rsy0b98w1cb6mdeb135ts.jpg?t=266890637');
+    background-size: cover;
+}
+#block_nine {
+    background: url('https://images.performgroup.com/di/library/goal_uk/b2/c4/ole-gunnar-solskjaer-manchester-united_zjr7xah467fq1rhy6ylzra98h.jpg?t=-1302185121');
+    background-size: cover;
+}
+#block_ten {   
+    background: url('https://icdn.strettynews.com/wp-content/uploads/2014/12/Ruud.jpg');
+    background-size: cover;
+}
+#block_eleven {
+   background: url('https://i0.wp.com/www.winnersports.co.uk/wp-content/uploads/2013/07/Man-City-vs-Man-United-FA-Cup-Wayne-Rooney-holds-badge.jpg?fit=1600%2C1075');
+    background-size: cover;
+}
+#block_twelve {
+    background: url('https://usatftw.files.wordpress.com/2013/04/gty-1672002901.jpg');
+    background-size: cover;
+}
+
+#button {
+    background: url('https://github.com/kicheungwauongy/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background-color: #a6a69d;
+    background-blend-mode: multiply;
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2px 2px;
+    text-decoration: none;
+}
+
+#comments {
+    background: #404040;
+    height: 50px;
+    width: 91%;
+    margin-top: 50px;
+    position: relative;
+    left: 50px;
+    bottom: -10px;
+}
+
+.twitter_logo {
+    height: 28px;
+    display: flex;
+    padding: 20px;
+}
+  
+h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    margin: 5px;
+    padding-right: 30px;
+}
+
+span {
+    font-size: 11px;
+    margin: 9px;
+}
+
+footer {
+    background: url('https://github.com/kicheungwauongy/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    background-color: #a6a69d;
+    background-blend-mode: multiply;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    left: 50px;
+    bottom: -10px;
+}
+
+#footlogo {
+    position: relative;
+    left: 10px;
+    bottom: -10px;
+}
+
+#footabout, #footgallery, #footdocuments {
+    color: black;
+    font-size: .80rem;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
