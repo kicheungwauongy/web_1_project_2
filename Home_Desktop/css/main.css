@@ -23,7 +23,7 @@ div#mainleft a {
   }
 
 .about, .gallery, .documents {
-    color: black;
+    color: #686868;
     font-size: .80rem;
     padding: 10px;
     margin: 10px;
@@ -218,7 +218,7 @@ h1 {
 }
 
 #comments {
-    background: #404040;
+    background: #686868;
     height: 50px;
     width: 91%;
     margin-top: 50px;
@@ -233,7 +233,7 @@ h1 {
     padding: 20px;
 }
   
-h4 {
+#ready {
     color: white;
     display: flex;
     justify-content: center;
@@ -266,10 +266,162 @@ footer {
 }
 
 #footabout, #footgallery, #footdocuments {
-    color: black;
+    color: #686868;
     font-size: .80rem;
     padding: 5px;
     margin: 10px;
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
+#question {
+    font-size: 1rem;
+    color: #404040;
+    position: relative;
+    left: -90px;
+     bottom: -10px;
+  }
+  
+  #find {
+    color: white;
+    font-size: .7rem;
+    position: relative;
+    left: -90px;
+    bottom: -5px;
+  }
+  
+  #search {
+    margin: -90px;
+    width: 90%;
+    height: 20px;
+  }
+  
+  #footcenter {
+    width: 30%;
+  }
+  
+  
+h3 {
+    font-size: .9rem;
+    color: #404040;
+    text-transform: uppercase;
+    position: relative;
+    left: -70px;
+    bottom: -11px;
+  }
+  
+#details {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: -70px;
+    bottom: -15px;
+  }
+  
+#read{
+    color: #404040;
+    position: relative;
+    left: -70px;
+    bottom: -15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  #view {
+    font-size: 1.2rem;
+    color: #444645;
+    position: relative;
+    left: -70px;
+    bottom: -5px;
+  }
+  
+
+  
+#box_one {
+    height: 30px;
+    width: 55px;
+    background: url('https://images.performgroup.com/di/library/goal_uk/a5/a4/george-best-man-utds-20-greatest_1aegqiy68hwvl1vox4pzn9oenp.jpg?t=-1054170550&w=940');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: -70px;
+    bottom: -5px;
+  }
+  
+#box_two {
+    height: 30px;
+    width: 55px;
+    background: url('https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article4874570.ece/ALTERNATES/s1227b/Foulkes.jpg');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: -10px;
+    bottom: 26px;
+  }
+  
+#box_three {
+    height: 30px;
+    width: 55px;
+    background: url('https://www.manutd.com/AssetPicker/images/0/0/6/24/399500/Eric_Cantona_player_portrait51512572642042_large.jpg');
+    background-size: cover;
+    margin: 7px;
+    position: relative;
+      left: 45px;
+      bottom: 62px;
+  }
+  
+#box_four {
+    height: 30px;
+    width: 55px;
+    background: url('https://1.bp.blogspot.com/-W40qb26v8gk/U6508zvu17I/AAAAAAAAKLs/b6kS-Ec5YuU/s1600/BdZ1N3MIAAAiFQA.jpg');
+    background-size: cover;
+    margin: 5px;
+    position: relative;
+    left: 108px;
+    bottom: 99.5px;
+  }
+  
+#box_five {
+    height: 30px;
+    width: 55px;
+    background: url('https://images.performgroup.com/di/library/goal_uk/bd/b4/ryan-giggs-manchester-united-champions-league_t5ss7d1s92dg1hmyrqs7eehsa.jpg?t=-710623633');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: -70px;
+    bottom: 90px;
+  }
+  
+  #box_six {
+    height: 30px;
+    width: 55px;
+    background: url('https://sport360.com/wp-content/uploads/2019/01/Paul-Scholes.jpg');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: -10px;
+    bottom: 121px;
+  }
+  
+#box_seven {
+    height: 30px;
+    width: 55px;
+    background: url('https://images.performgroup.com/di/library/goal_uk/56/22/peter-schmeichel-man-utd_tk7xht4edufz1vrc2x2dg3gkp.jpg?t=1036943041');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: 50px;
+    bottom: 152px;
+  }
+  
+#box_eight {
+    height: 30px;
+    width: 55px;
+    background: url('https://images.performgroup.com/di/library/goal_uk/de/ce/david-beckham-manchester-united_mn16rsy0b98w1cb6mdeb135ts.jpg?t=266890637');
+    background-size: cover;
+    margin: 1px;
+    position: relative;
+    left: 111px;
+    bottom: 183px;
+  }
